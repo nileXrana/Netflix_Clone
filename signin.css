@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.container{
+    border: 5px solid;
+    background-image: url("net.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.black{
+    background-color: rgba(0, 0, 0, 0.478);
+}
+.netflix{
+    width: 150px;
+    height: 50px;
+    position: relative;
+    z-index: 10;
+}
+.div1{
+    padding-top: 10px;
+    /* border: 5px solid white; */
+    max-width: 77vw;
+    margin: auto;
+}
+.div2{
+    /* border: 5px solid white; */
+    height: calc(100vh - 60px);
+    width: 35vw;
+    margin: auto;
+    margin-top: 19px;
+    background-color: rgba(0, 0, 0, 0.672);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.w{
+    color: white;
+}
+h1{
+    color: white;
+}
+.inner{
+    /* border: 1px solid white; */
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+h1{
+    width: 80%;
+    margin: auto;
+}
+.divb{
+    width: 80%;
+    margin: auto;
+}
+.divb2{
+    width: calc(95% - 30px);
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.473);
+    border-radius: 5px;
+    padding: 4px 20px;
+    color: red;
+}
+.divb2::placeholder{
+    color: rgba(255, 255, 255, 0.815);
+}
+.divc{
+    width: 80%;
+    margin: auto;
+}
+.divc2{
+    width: calc(95% - 30px);
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.473);
+    border-radius: 5px;
+    padding: 4px 20px;
+    color: red;
+}
+.divc2::placeholder{
+    color: rgba(255, 255, 255, 0.799);
+}
+.divd{
+    width: 80%;
+    margin: auto;
+    
+}
+.divd2{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    
+    
+}
+.dive{
+    text-align: center;
+    color: rgb(207, 203, 203);
+}
+.divf{
+    width: 80%;
+    margin: auto;
+}
+.divf2{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.4);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    
+}
+.divg{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+}
+.divg:hover{
+    text-decoration: underline;
+}
+.divh{
+    width: 80%;
+    margin: auto;
+}
+.divi{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    color: #8c8c8c;
+}
+.check{
+    cursor: pointer;
+}
+#learn{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #0071eb
+}
+#learn:hover{
+    text-decoration: underline;
+}
+.remember{
+    margin-left: 10px;
+}
+.sign{
+    color: white;
+    text-decoration: none;
+}
+.sign:hover{
+    text-decoration: underline;
+}
+.divj{
+    width: 80%;
+    margin: auto;
+    font-size: 13px;
+    color: #8c8c8c;
+}
+.divboth{
+    margin-bottom: 10px;
+}
+.lastbox{
+    /* border: 1px solid white; */
+    width: 60vw;
+    margin-left: 170px;
+    margin-top: 200px;
+    color: #8c8c8c;;
+}
+.flex1{
+    margin-top: 25px;
+    display: flex;
+    gap: 150px;
+}
+.flex2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 55px;
+    text-decoration: underline;
+}
+.btn{
+    padding: 6px 35px;
+    font-weight: 600;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.108);
+    border: 1px solid rgba(255, 255, 255, 0.41);
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-left: -22px;
+    margin-bottom: 50px;
+}
+.translate{
+    color: white;
+    position: relative;
+    left: 13px;
+    top: 2px;
+    z-index: 11;
+}
+.abc{
+    color: #8c8c8c;;
+}
