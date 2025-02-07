@@ -61,7 +61,7 @@ select.btn {
     font-family: "Martel Sans", serif;
     color: white;
     /* height: calc(60vh - 95px); */
-    height: 77%;
+    /* height: 77%; */
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
