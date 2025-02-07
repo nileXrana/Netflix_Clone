@@ -342,16 +342,15 @@ footer .questions {
     #gmail{
         width: 70vw;
     }
-    .main{
-        height: 69vh;
+    /* .main{
+        height: 65vh;
     }
     .main.box{
-        height: 69vh;
-    }
+        height: 65vh;
+    } */
     .translate{
         display: none;
     }
-    
 }
 @media screen and (max-width: 540px){
     .faqbox{
@@ -372,7 +371,12 @@ footer .questions {
     }
     #dynamicbox4{
         width: 69vw;
-        font-size: 15px;
+    }
+    .main{
+        height: 65vh;
+    }
+    .main .box{
+        height: 65vh;
     }
 }
 .india{
