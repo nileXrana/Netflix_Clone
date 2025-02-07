@@ -176,18 +176,21 @@ h1{
     /* border: 1px solid white; */
     width: 60vw;
     margin-left: 170px;
+    margin: auto;
     margin-top: 200px;
     color: #8c8c8c;;
 }
 .flex1{
     margin-top: 25px;
     display: flex;
+    /* justify-content: center; */
     gap: 150px;
 }
 .flex2{
     margin-top: 25px;
     margin-bottom: 25px;
     display: flex;
+    /* justify-content: center; */
     gap: 55px;
     text-decoration: underline;
 }
@@ -218,6 +221,24 @@ h1{
         width: 47vw;
     }
 }
+@media only screen and (max-width: 1200px){
+    .flex1{
+        gap: 100px;
+    }
+    .flex2{
+        gap: 30px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .flex1{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .flex2{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
 @media only screen and (max-width: 540px){
     .div2{
         /* height: calc(100vh - 120px);
@@ -229,5 +250,8 @@ h1{
     .inner{
         height: 75%;
         gap: 12px;
+    }
+    .ques{
+        text-align: center;
     }
 }
