@@ -25,6 +25,7 @@ body{
     /* border: 5px solid white; */
     max-width: 77vw;
     margin: auto;
+    
 }
 .div2{
     /* border: 5px solid white; */
@@ -101,7 +102,6 @@ h1{
     border-radius: 5px;
     color: white;
     cursor: pointer;
-    
     
 }
 .dive{
@@ -238,12 +238,15 @@ h1{
         flex-direction: column;
         gap: 30px;
     }
+    .div1{
+        text-align: center;
+    }
 }
 @media only screen and (max-width: 540px){
     .div2{
         /* height: calc(100vh - 120px);
         width: 56vw; */
-        height: calc(100vh - 290px);
+        height: calc(100vh - 285px);
         width: 80vw;
         gap: 0px;
     }
@@ -252,6 +255,9 @@ h1{
         gap: 12px;
     }
     .ques{
+        text-align: center;
+    }
+    .div1{
         text-align: center;
     }
 }
