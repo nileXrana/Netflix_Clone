@@ -359,7 +359,16 @@ footer .questions {
         text-align: left;
     }
     #dynamicbox1{
-        width: 70vw;
+        width: 69vw;
+    }
+    #dynamicbox2{
+        width: 69vw;
+    }
+    #dynamicbox3{
+        width: 69vw;
+    }
+    #dynamicbox4{
+        width: 69vw;
     }
 }
 .india{
