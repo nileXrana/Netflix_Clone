@@ -222,7 +222,12 @@ h1{
     .div2{
         /* height: calc(100vh - 120px);
         width: 56vw; */
-        height: calc(100vh - 217px);
-        width: 68vw;
+        height: calc(100vh - 360px);
+        width: 80vw;
+        gap: 0px;
+    }
+    .inner{
+        height: 75%;
+        gap: 12px;
     }
 }
