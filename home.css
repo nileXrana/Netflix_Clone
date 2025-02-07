@@ -348,11 +348,15 @@ footer .questions {
     .india{
         text-align: center;
     }
+    .faqbox{
+        font-size: 18px;
+    }
 }
 @media screen and (max-width: 540px){
     .faqbox{
         padding: 13px;
         text-align: left;
+        font-size: 18px;
     }
     #dynamicbox1{
         width: 69vw;
