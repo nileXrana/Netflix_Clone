@@ -345,6 +345,9 @@ footer .questions {
     .translate{
         display: none;
     }
+    .india{
+        text-align: center;
+    }
 }
 @media screen and (max-width: 540px){
     .faqbox{
