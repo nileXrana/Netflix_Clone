@@ -8,16 +8,26 @@ function detail() {
     let aa = document.getElementById("dynamicbox2")
     if (aa) {
         aa.remove()
+        let plus = document.getElementById("plus4")
+        plus.style.transition = "transform 0.5s ease-in-out"
+        plus.style.transform = "rotate(0deg)"
+
     }
     let bb = document.getElementById("dynamicbox3")
     if (bb) {
         bb.remove()
+        let plus = document.getElementById("plus3")
+        plus.style.transition = "transform 0.5s ease-in-out"
+        plus.style.transform = "rotate(0deg)"
     }
     let cc = document.getElementById("dynamicbox4")
     if (cc) {
         cc.remove()
+        let plus = document.getElementById("plus2")
+        plus.style.transition = "transform 0.5s ease-in-out"
+        plus.style.transform = "rotate(0deg)"
     }
-
+    // main one :
     let ak = document.getElementById("dynamicbox1")
     if (ak) {
         ak.remove()
@@ -50,14 +60,23 @@ function detail2() {
     let aa = document.getElementById("dynamicbox1")
     if (aa) {
         aa.remove()
+        let plus = document.getElementById("plus1")
+        plus.style.transition = "transform 0.5s ease-in-out"
+        plus.style.transform = "rotate(0deg)"
     }
     let bb = document.getElementById("dynamicbox3")
     if (bb) {
         bb.remove()
+        let plus = document.getElementById("plus3")
+        plus.style.transition = "transform 0.5s ease-in-out"
+        plus.style.transform = "rotate(0deg)"
     }
     let cc = document.getElementById("dynamicbox4")
     if (cc) {
         cc.remove()
+        let plus = document.getElementById("plus2")
+        plus.style.transition = "transform 0.5s ease-in-out"
+        plus.style.transform = "rotate(0deg)"
     }
 
     let ak = document.getElementById("dynamicbox2")
@@ -87,14 +106,23 @@ function detail3() {
     let aa = document.getElementById("dynamicbox1")
     if (aa) {
         aa.remove()
+        let plus = document.getElementById("plus1")
+        plus.style.transition = "transform 0.5s ease-in-out"
+        plus.style.transform = "rotate(0deg)"
     }
     let bb = document.getElementById("dynamicbox2")
     if (bb) {
         bb.remove()
+        let plus = document.getElementById("plus4")
+        plus.style.transition = "transform 0.5s ease-in-out"
+        plus.style.transform = "rotate(0deg)"
     }
     let cc = document.getElementById("dynamicbox4")
     if (cc) {
         cc.remove()
+        let plus = document.getElementById("plus2")
+        plus.style.transition = "transform 0.5s ease-in-out"
+        plus.style.transform = "rotate(0deg)"
     }
 
     let ak = document.getElementById("dynamicbox3")
@@ -124,14 +152,23 @@ function detail4() {
     let aa = document.getElementById("dynamicbox1")
     if (aa) {
         aa.remove()
+        let plus = document.getElementById("plus1")
+        plus.style.transition = "transform 0.5s ease-in-out"
+        plus.style.transform = "rotate(0deg)"
     }
     let bb = document.getElementById("dynamicbox2")
     if (bb) {
         bb.remove()
+        let plus = document.getElementById("plus4")
+        plus.style.transition = "transform 0.5s ease-in-out"
+        plus.style.transform = "rotate(0deg)"
     }
     let cc = document.getElementById("dynamicbox3")
     if (cc) {
         cc.remove()
+        let plus = document.getElementById("plus3")
+        plus.style.transition = "transform 0.5s ease-in-out"
+        plus.style.transform = "rotate(0deg)"
     }
 
     let ak = document.getElementById("dynamicbox4")
