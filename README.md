@@ -26,7 +26,7 @@ https://nilesh-clone.vercel.app/index.html
 
 ---
 
-Feel free to fork or contribute if you're also learning frontend development!
+Feel free to fork or contribute if you're also learning frontend development.
 
 
 
