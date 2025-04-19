@@ -20,9 +20,13 @@ It is not intended for commercial use and does not stream any actual media conte
 - CSS
 - JavaScript
 
-## 📷 Preview
+## 🔗 Live Demo
 
-![Screenshot](screenshot.png) <!-- Add your own screenshot image -->
+https://nilesh-clone.vercel.app/index.html
 
-## 📁 Folder Structure
+---
+
+Feel free to fork or contribute if you're also learning frontend development!
+
+
 
